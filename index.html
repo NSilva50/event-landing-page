@@ -11,16 +11,16 @@
   </head>
   <body>
    
-    <nav class="container-fluid">
-      <div class="row fw-bolder">
-        <div class="col-3">Moqups</div>
-        <div class="col-1 offset-6">Speakers</div>
-        <div class="col-1">Tickets</div>
-        <div class="col-1">Venue</div>
+    <nav class="container">
+      <div class="row fw-bolder align-items-end">
+        <div class="col">Moqups</div>
+        <div class="col">Speakers</div>
+        <div class="col">Tickets</div>
+        <div class="col">Venue</div>
       </div>
     </nav>
 
-    <div class="container-fluid p-5 bg-light rounded-3">
+    <div class="container-fluid p-5 rounded-3 text-center" id="myImage">
       <div class="row justify-content-center">
         <div class="col">
             <div class="jumbotron">
@@ -28,7 +28,7 @@
                 <h1> Clear Statement about Your Event</h1>
                 <p>Secondary header providing additional information</p>
               </div>
-              <button class="btn btn-primary btn-lg">Example Button</button>
+              <button class="btn btn-dark btn-lg">Example Button</button>
             </div>
           </div>
         </div>
@@ -37,51 +37,52 @@
 
     <div class="container-fluid p-5 m-2 border-bottom border-secondary">
       <div class="row">
-        <h2>The Speakers</h2>
-        <p>
-          Write a few lines about the event speakers
-          to highlight their expertise in the field.
-        </p>
+        <div class="text-center">
+          <h2>The Speakers</h2>
+          <p>
+            Write a few lines about the event speakers
+            to highlight their expertise in the field.
+          </p>
+        </div>
         <div class="col">
           <img src="IMG/mountains-bg.png" alt="" class="mw-100 rounded-3">
-          <h3>Ruby Jennings</h3>
-          <p>Product Manager at Moqups. Runner, parent and coffe lover.</p>
+          <h3 class="fw-bold">Ruby Jennings</h3>
+          <p>Product Manager at Moqups. Runner, parent and coffee lover.</p>
           <p>@username</p>
         </div>
         <div class="col">
           <img src="IMG/mountains-bg.png" alt="" class="mw-100 rounded-3">
-          <h3>Leon Hanson</h3>
-          <p>Sales Manager at Moqups. Runner, parent and coffe lover.</p>
+          <h3 class="fw-bold">Leon Hanson</h3>
+          <p>Sales Manager at Moqups. Runner, parent and coffee lover.</p>
           <p>@username</p>
         </div>
         <div class="col">
           <img src="IMG/mountains-bg.png" alt="" class="mw-100 rounded-3">
-          <h3>Meghan Stone</h3>
-          <p>Marketing Specialist at Moqups. Runner, parent and coffe lover.</p>
+          <h3 class="fw-bold">Meghan Stone</h3>
+          <p>Marketing Specialist at Moqups. Runner, parent and coffee lover.</p>
           <p>@username</p>
         </div>
         <div class="col">
           <img src="IMG/mountains-bg.png" alt="" class="mw-100 rounded-3">
-          <h3>Willie Perkins</h3>
-          <p>UX Engineer at Moqups. Runner, parent and coffe lover.</p>
+          <h3 class="fw-bold">Willie Perkins</h3>
+          <p>UX Engineer at Moqups. Runner, parent and coffee lover.</p>
           <p>@username</p>
         </div>
       </div>
     </div>
-    <!-- create border or hr for split -->
-    <div class="container-fluid p-5 m-2 border-bottom border-secondary">
+
+    <div class="container-fluid p-5 m-2 border-bottom border-secondary text-center">
       <div class="row">
-        <h2>Get Your Tickets Today!</h2>
+        <h2 class="fw-bold">Get Your Tickets Today!</h2>
         <p>Each ticket includes: 20 speakers, 1000 participants, 15 sessions, 5 keynotes.</p>
-        <button class="btn btn-primary btn-lg">Example Button</button>
+        <button class="btn btn-dark">Example Button</button>
       </div>
     </div>
-    <!-- create border or hr for split -->
 
     <div class="container-fluid p-5 m-2 border-bottom border-secondary">
       <div class="row">
         <div class="col-md-6">
-          <h1 class="display-5">The Venue</h1>
+          <h1 class="display-5 fw-bold">The Venue</h1>
           <p>
             Our event will be held at the Main Office
             headquarters at Provost & East building 145
@@ -95,12 +96,12 @@
       </div>
     </div>
 
-    <footer class="container-fluid">
+    <footer class="container">
       <div class="row align-items-start">
           <i class="col-1 bi bi-twitter"></i>
           <i class="col-1 bi bi-instagram"></i>
           <i class="col-1 bi bi-facebook"></i>
-          <p class="col-3 offset-6 align-self-end">&copy 2019 Moqups</p>
+          <p class="col-1 offset-8 align-self-end">&copy 2019 Moqups</p>
       </div>
     </footer>
 

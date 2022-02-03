@@ -1,3 +1,9 @@
+#myImage{
+    background-image: url("../IMG/mountains-bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 .img-responsive{
     width: 100%;
 }
